@@ -1,0 +1,19 @@
+Generate Playwright tests for:
+
+Open the target web application at [URL].
+Log in using valid credentials provide in git hub co pilot prompt/message at run time.
+Perform the following actions:
+[Describe each user action, e.g., click a button, fill a form, select a dropdown, upload a file, etc.]
+Validate the expected outcomes:
+[List assertions, e.g., check for success messages, verify page navigation, ensure data is displayed correctly, etc.]
+Include setup and teardown steps if necessary.
+Use clear selectors and comments for maintainability.
+Ensure the test is idempotent and can run multiple times without side effects.
+
+For all the above steps generate playwrigth and Typescript test for it in POM(Page Object Model) framework, keep elements idetifiers and methods on different page and testcases seperately
+Do run steps one by one using the tools provided by the playwright-mcp
+Try to use common unique identfiers for different webelements so that scripts will get stable and not fail due to unidentified elements or webelements not found
+only after all the steps are completed and pass emit a playwright Typescript test.
+Save generated test file in the test directory
+Execute the test file and iterate untill the test passes
+

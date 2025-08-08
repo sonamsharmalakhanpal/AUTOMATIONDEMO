@@ -1,0 +1,31 @@
+
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# VS Code settings
+.vscode/
+
+# Coverage
+coverage/
+
+# npm debug files
+npm-debug.log*
+
+# Misc
+*.swp
+*.swo
