@@ -39,7 +39,9 @@ export class NetbankLoginPage {
   async viewAccounts() {
   const accountsLink = this.page.getByRole('link', { name: 'View accounts' });
   await expect(accountsLink).toBeVisible(); // Assert 'View accounts' link is visible
-  await accountsLink.click();
+  if (await accountsLink.isVisible()) {
+    await accountsLink.click();
+  }
   }
 
   async offersAndApply() {
