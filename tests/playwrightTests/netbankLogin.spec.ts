@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.setTimeout(60000); // Set test timeout to 60 seconds
-import { NetbankLoginPage } from '../pages/netbankLoginPage';
+import { NetbankLoginPage } from '../../pages/netbankLoginPage';
 
 test('Netbank full user flow', async ({ page }) => {
   const loginPage = new NetbankLoginPage(page);
