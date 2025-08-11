@@ -8,9 +8,12 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.54.2",
-    "@types/node": "^24.2.0"
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
+    "artillery": "^2.0.23",
+    "playwright": "^1.54.2",
     "playwright-mcp": "^0.0.12"
   }
 }
